@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Nama Aplikasi</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/pricing.css') }}">
+</head>
+<body>
+   <div class="container">
+      <center class="pt-4 pb-4">
+         <h4>Olahan Tanaman</h4>
+         <hr>
+         <h5>Silahkan pilih tanaman untuk mengetahui olahan yang dapat dibuat</h5>
+      </center>
+      <div class="card-deck mb-3 text-center">
+         {% for row in container %}
+         <div class="card mb-4 box-shadow">
+            <div class="card-header">
+               <h5 class="my-0 font-weight-normal">{{ row['tanaman_nama'] }}</h5>
+            </div>
+            <div class="card-body">
+               <img src="{{ url_for('static', filename='image/tanaman/' + row['tanaman_gambar']) }}" width="100%">
+               <a href="/olahan/{{ row['tanaman_id'] }}">
+                  <button type="button" class="btn btn-sm btn-block btn-primary">Lihat Olahan</button>
+               </a>
+            </div>
+         </div>
+         {% endfor %}
+      </div>
+    </div>
+</body>
+</html>
