@@ -1,0 +1,98 @@
+{"intents": [
+    {"tag": "sapa",
+     "patterns": ["Hi", "Halo", "Hey","Hello", "haloo"],
+     "responses": ["Hello, ada yang bisa kami bantu?", "Hi, Ada yang ingin anda tanyakan?"],
+     "context": [""]
+    },
+
+    {"tag": "pagi",
+        "patterns": ["Selamat pagi", "Pagi", "Halo semalat pagi"],
+        "responses": ["Selamat pagi, ada yang bisa kami bantu?", "Selamat pagi, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+       
+    {"tag": "siang",
+        "patterns": ["Selamat siang", "sore", "Halo semalat siang"],
+        "responses": ["Selamat siang, ada yang bisa kami bantu?", "Selamat siang, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+
+    {"tag": "sore",
+        "patterns": ["Selamat sore", "sore", "Halo semalat sore"],
+        "responses": ["Selamat sore, ada yang bisa kami bantu?", "Selamat sore, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+
+    {"tag": "malam",
+        "patterns": ["Selamat malam", "Malam", "Halo semalat malam"],
+        "responses": ["Selamat malam, ada yang bisa kami bantu?", "Selamat malam, Ada yang ingin anda tanyakan?"],
+        "context": [""]
+       },
+
+    {"tag": "terimakasih",
+     "patterns": ["Terima kasih", "Makasih", "Matur nuwun", "terimakasih"],
+     "responses": ["Senang bisa membantu anda", "sama sama"],
+     "context": [""]
+    },
+
+
+    {"tag": "tanpajawaban",
+     "patterns": [""],
+     "responses": ["Maaf, saya tidak mengerti apa yang anda maksud. Anda bisa tanyakan seputar aplikasi kami misalnya 'aplikasi ini untuk apa?' ", "Maaf, mungkin saya kurang belajar jadi tidak mengerti apa yang anda maksud. Anda bisa tanyakan seputar aplikasi kami misalnya 'cara penggunaan aplikasi ini bagaimana?' "],
+     "context": [""]
+    },
+
+
+    {"tag": "options",
+     "patterns": ["Kamu bisa apa saja?", "Saya mau tanya dong", "saya bisa tanya tentang apa saja?"],
+     "responses": ["Silahkan bertanya kepada saya, saya bisa menjelaskan kepada anda mengenai aplikasi ini", "Saya akan membantu anda dalam menggunakan aplikasi Frepocery dan mengenai Politeknik Harapan Bersama"],
+     "context": [""]
+    },
+
+
+    {"tag": "tanyaaplikasi",
+     "patterns": ["Ini aplikasi untuk apa?", "Untuk apa aplikasi ini dibikin?", "Bisakah anda jelaskan kepada saya mengenai aplikasi ini?", "Apa itu Frepocery?"],
+     "responses": ["Aplikasi Frepocery merupakan aplikasi layanan marketplace dengan sistem rekomendasi"],
+     "context": [""]
+    },
+
+
+    {"tag": "carapenggunaan",
+     "patterns": ["Bagaimana cara menggunakan aplikasi Frepocery?","cara penggunaan aplikasi ini gimana sih?","saya belum tau cara penggunaannya gimana" ],
+     "responses": ["Aplikasi ini dapat akan merekomendasikan anda dalam pemilihan jenis tanaman untuk dibeli"],
+     "context": [""]
+    },
+
+
+    {"tag": "fitur",
+     "patterns": ["Apa saja fitur yang terdapat pada aplikasi ini?","fiturnya apa aja nih?","ada berapa fitur pada aplikasi ini?" ],
+     "responses": ["Aplikasi Frepocery memiliki 3 fitur yaitu Untuk melihat apa saja yang akan dipilih oleh konsumen, Chatbot yang anda gunakan saat ini, dan ada fitur untuk logout"],
+     "context": [""]
+    },
+
+
+    {"tag": "search_blood_pressure_by_patient_id",
+     "patterns": [],
+     "responses": ["Loading Blood pressure result for Patient"],
+     "context": [""]
+    },
+
+
+    {"tag": "tanamanherbal",
+     "patterns": ["Tanaman herbal apa saja?","obat herbal","tanaman untuk jamu" ],
+     "responses": ["Serai", "mint", "kunyit"],
+     "context": [""]
+    },
+
+
+    
+    {"tag": "pembuataplikasi",
+     "patterns": ["siapa sih pembuat aplikasi Frepocery?","aplikasi ini dibuat oleh siapa?","ini aplikasi buatan siapa?" ],
+     "responses": ["This app created by Markov 4"],
+     "context": [""]
+    }
+
+
+
+]
+}
